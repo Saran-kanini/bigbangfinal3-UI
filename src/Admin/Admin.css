@@ -1,0 +1,63 @@
+.section-hero {
+  background-image: linear-gradient(rgba(3, 4, 94, 0.5), rgba(2, 61, 138, 0.6)),
+    url('./img/england.jpg');
+  height: max(100vh, 60rem);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: auto;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-field input[type="text"],
+.input-field input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.nextBtn {
+  display: block;
+  background-color: #04203f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
